@@ -1,9 +1,9 @@
 ---
 title: Building a Music Link Sharer with Cloudflare Workers
-publish_date: 2020-09-07
-image: https://media.calebukle.com/uploads/music/vinyl-placeholder.jpg
 description: Look into how I built my own music link sharer service, all on the network edge. ⚡
-publish: true
+author: Caleb Ukle
+publish_date: 2020-09-07
+og:image: https://media.calebukle.com/uploads/music/vinyl-placeholder.jpg
 tags:
   - Cloudflare
   - Music

@@ -1,11 +1,17 @@
-import blog, { ga, redirects } from "https://deno.land/x/blog@0.4.1/blog.tsx";
+import blog from "https://deno.land/x/blog@0.4.1/blog.tsx";
 
 blog({
-  title: "My Blog",
-  description: "This is my new blog.",
-  avatar: "https://deno-avatar.deno.dev/avatar/blog.svg",
+  title: "Caleb Ukle",
+  description: "This is where I write about random stuff. Enjoy.",
+  avatar: "https://media.calebukle.com/uploads/avi.jpg",
   avatarClass: "rounded-full",
-  author: "An author",
+  author: "Caleb Ukle",
+  lang: 'en',
+  dateStyle: 'long',
+  links: [
+    {title: "Twitter", url: "https://twitter.com/cu_galaxy"},
+    {title: "GitHub", url: "https://github.com/barbados-clemens"}
+  ]
 
   // middlewares: [
 

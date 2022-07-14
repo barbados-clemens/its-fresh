@@ -1,14 +1,14 @@
 ---
-description: Issues with ODBC and OLEDB are quite annoying, typically found when trying to use these drivers to connect to an excel sheet. Here I detail how I solved my issues using IIS.
 title: ODBC Driver and OLEDB Provider Issues and Potential Fixes
+description: Issues with ODBC and OLEDB are quite annoying, typically found when trying to use these drivers to connect to an excel sheet. Here I detail how I solved my issues using IIS.
+author: Caleb Ukle
 publish_date: 2019-01-10
+og:image: https://media.calebukle.com/uploads/app-pool-adv-settings.png
 tags:
   - ODBC
   - OLEDB
   - Excel
   - Microsoft
-publish: true
-image: https://media.calebukle.com/uploads/app-pool-adv-settings.png
 ---
 
 >_This post originally appeared on [Medium on January 10, 2019](https://medium.com/@caleb.ukle/odbc-driver-and-oledb-provider-issues-and-potential-fixes-1b165de20e1b)._

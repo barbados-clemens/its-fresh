@@ -1,13 +1,13 @@
 ---
 title: How To Make  A Custom Image Object Detection Model (The Easy Way)
-publish_date: 2019-10-31
 description: I've been trying to make and train a custom machine learning model for detecting specific objects in images. After some exploring, I found a massively easy way to do this. Here is my found solution to build, train, and output the model in the desired ML Format! 
+author: Caleb Ukle
+publish_date: 2019-10-31
+og:image: https://media.calebukle.com/uploads/buck-ai-predict.png
 tags:
   - Machine Learning
   - Object Detection
   - ONNX
-publish: true
-image: https://media.calebukle.com/uploads/buck-ai-predict.png
 ---
 
 ![Image Object Detection](https://media.calebukle.com/uploads/buck-ai-predict.png)

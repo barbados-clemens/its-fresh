@@ -1,13 +1,13 @@
 ---
 title: Generate Code Coverage Badge with Gitlab CI and an Angular Project
-publish_date: 2018-07-23
 description: As the title says, this is how to enable the code coverage badge with Angular on Gitlab CI. Also, I’ll show setting up a Gitlab pipeline for testing an Angular application at the end.
+author: Caleb Ukle
+publish_date: 2018-07-23
+og:image: https://media.calebukle.com/uploads/badges.png
 tags:
   - Angular
   - Gitlab
   - Continuous Integration
-publish: true
-image: https://media.calebukle.com/uploads/badges.png
 ---
 
 >_This post originally appeared on [Medium on July 23, 2018](https://medium.com/@caleb.ukle/code-coverage-badge-with-angular-karma-istanbul-on-gitlab-ci-9611b69ad7e)._

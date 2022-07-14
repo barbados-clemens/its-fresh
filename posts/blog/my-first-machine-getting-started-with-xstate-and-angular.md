@@ -1,9 +1,9 @@
 ---
 title: My First Machine, Getting Started with XState and Angular
-publish_date: 2020-09-11T05:00:15.378Z
-image: https://media.calebukle.com/uploads/2020/09/bill-oxford--machine-unsplash.jpg
 description: I have long been interested in XState, a JavaScript state machines and statecharts library. Up until this point I've not found a reason to use a state management library, but XState has really piqued my interest.
-publish: true
+author: Caleb Ukle
+publish_date: 2020-09-11T05:00:15.378Z
+og:image: https://media.calebukle.com/uploads/2020/09/bill-oxford--machine-unsplash.jpg
 tags:
   - XState
   - Angular

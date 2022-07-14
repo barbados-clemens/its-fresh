@@ -1,9 +1,9 @@
 ---
 title: Building a Formula 1 Dashboard with iOS 14 Widgets
+description: iOS 14 introduce a breakthrough new feature called widgets. Never has the world seen such innovation in mobile phone operating system features. Um, well okay yeah not really, but hey we got this feature so why not use it. Here is how I built myself a little dashboard for all my Formula 1 wants, and how you can do it too!
+author: Caleb Ukle
 publish_date: 2020-09-21
 image: https://media.calebukle.com/uploads/2020/09/ios14-f1-dashboard.png
-description: iOS 14 introduce a breakthrough new feature called widgets. Never has the world seen such innovation in mobile phone operating system features. Um, well okay yeah not really, but hey we got this feature so why not use it. Here is how I built myself a little dashboard for all my Formula 1 wants, and how you can do it too!
-publish: true
 tags:
   - iOS
   - Formula 1

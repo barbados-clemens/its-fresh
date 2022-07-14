@@ -1,15 +1,15 @@
 ---
 title: Mapbox, Deck.gl, and Angular for Realtime Data Visualization
-publish_date: 2019-11-10
 description: Recently, I was inspired by Jeff from fireship.io with his video over data visualization using deck.gl and google maps. I wanted to tinker with using a framework (angular) and Mapbox to make a realtime data visualization.
+author: Caleb Ukle
+publish_date: 2019-11-10
+og:image: https://media.calebukle.com/uploads/update-viz.gif
 tags: 
     - Angular
     - Mapbox
     - Deck.gl
     - Data Science
-publish: true
-image: https://media.calebukle.com/uploads/update-viz.gif
---- 
+---
 [Link to fireship.io tutorial](https://fireship.io/lessons/deckgl-google-maps-tutorial/)
 
 ![Datapoints Updating](https://media.calebukle.com/uploads/update-viz.gif)
