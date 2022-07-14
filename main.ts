@@ -1,26 +1,22 @@
-/// <reference no-default-lib="true" />
-/// <reference lib="dom" />
-/// <reference lib="dom.asynciterable" />
-/// <reference lib="deno.ns" />
-/// <reference lib="deno.unstable" />
+import blog, { ga, redirects } from "https://deno.land/x/blog@0.4.1/blog.tsx";
 
-import { InnerRenderFunction, RenderContext, start } from "$fresh/server.ts";
-import manifest from "./fresh.gen.ts";
+blog({
+  title: "My Blog",
+  description: "This is my new blog.",
+  avatar: "https://deno-avatar.deno.dev/avatar/blog.svg",
+  avatarClass: "rounded-full",
+  author: "An author",
 
-import { config, setup } from "@twind";
-import { virtualSheet } from "twind/sheets";
+  // middlewares: [
 
-const sheet = virtualSheet();
-sheet.reset();
-setup({ ...config, sheet });
+    // If you want to set up Google Analytics, paste your GA key here.
+    // ga("UA-XXXXXXXX-X"),
 
-function render(ctx: RenderContext, render: InnerRenderFunction) {
-  const snapshot = ctx.state.get("twind") as unknown[] | null;
-  sheet.reset(snapshot || undefined);
-  render();
-  ctx.styles.splice(0, ctx.styles.length, ...(sheet).target);
-  const newSnapshot = sheet.reset();
-  ctx.state.set("twind", newSnapshot);
-}
+    // If you want to provide some redirections, you can specify them here,
+    // pathname specified in a key will redirect to pathname in the value.
+    // redirects({
+    //  "/hello_world.html": "/hello_world",
+    // }),
 
-await start(manifest, { render });
+  // ]
+});
