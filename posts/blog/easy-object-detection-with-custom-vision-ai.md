@@ -8,6 +8,7 @@ tags:
   - Machine Learning
   - Object Detection
   - ONNX
+  - Blog
 ---
 
 ![Image Object Detection](https://media.calebukle.com/uploads/buck-ai-predict.png)

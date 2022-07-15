@@ -1,14 +1,17 @@
 ---
 title: /uses
-description: Here is a list of common things I use on a semi regular basis.
+description: Some of my daily use items
 author: Caleb Ukle
 publish_date: 2022-07-14
 og:image: ''
+canonical: https://calebukle.com/blog/angular-code-coverage-badge-with-gitlab-ci
 tags:
   - Gear
   - Hardware
   - Software
 ---
+
+For the most part I end up rocking with
 
 ## Hardware
 

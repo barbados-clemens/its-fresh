@@ -8,6 +8,7 @@ tags:
   - Cloudflare
   - Music
   - Serverless
+  - Blog
 ---
 
 > Check out the

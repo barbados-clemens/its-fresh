@@ -6,8 +6,9 @@ publish_date: 2020-09-21
 og:image: https://media.calebukle.com/uploads/2020/09/ios14-f1-dashboard.png
 tags:
   - iOS
-  - Formula 1
+  - F1
   - JavaScript
+  - Blog
 ---
 
 ![My F1 Dashboard on iOS 14](https://media.calebukle.com/uploads/2020/09/ios14-f1-dashboard.png)

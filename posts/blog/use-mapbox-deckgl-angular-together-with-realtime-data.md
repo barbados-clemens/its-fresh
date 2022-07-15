@@ -9,6 +9,7 @@ tags:
     - Mapbox
     - Deck.gl
     - Data Science
+    - Blog
 ---
 
 [Link to fireship.io tutorial](https://fireship.io/lessons/deckgl-google-maps-tutorial/)
