@@ -12,7 +12,7 @@ tags:
   - IT Networking
 ---
 
-![Top down picture of various items arranged in a grid pattern on a table. items from top left to bottom right are as follow: Headphone cables, blue notebook with gold big dipper constellation, lego mercedes f1 car. Next row. green circuit board, headphones, metal computer dock, usb charger hub, mp3 player. Next row. Stream deck, magic trackpad, leather bag. Next row. 3 key keyboard, TKL keyboard, macbook pro, blue iphone](https://media.calebukle.com/cdn-cgi/imagedelivery/6_sVAC4MwGJ_cI4QnB3iTg/desk-knoll/fit=cover)
+![Top down picture of various items arranged in a grid pattern on a table. items from top left to bottom right are as follow: Headphone cables, blue notebook with gold big dipper constellation, lego mercedes f1 car. Next row. green circuit board, headphones, metal computer dock, usb charger hub, mp3 player. Next row. Stream deck, magic trackpad, leather bag. Next row. 3 key keyboard, TKL keyboard, macbook pro, blue iphone](https://media.calebukle.com/cdn-cgi/imagedelivery/6_sVAC4MwGJ_cI4QnB3iTg/desk-knoll/public)
 
 ## Office Life
 
