@@ -25,6 +25,7 @@ blog({
       "/hello_world.html": "/hello_world",
       "/blog": "/?tag=Blog",
       "/lego": "/?tag=Lego",
+      "/use": "/uses",
     }),
   ],
 });
