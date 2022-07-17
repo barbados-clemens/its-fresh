@@ -7,6 +7,7 @@ og:image: https://media.calebukle.com/uploads/2020/09/bill-oxford--machine-unspl
 tags:
   - XState
   - Angular
+  - Blog
 ---
 
 The reason [XState](https://xstate.js.org/docs/) caught my attention is mainly

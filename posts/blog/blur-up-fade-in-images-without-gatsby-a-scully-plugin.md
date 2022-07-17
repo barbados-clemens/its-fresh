@@ -8,6 +8,7 @@ tags:
   - Scully
   - Gatsby
   - Plugins
+  - Blog
 ---
 
 ![Sample gif of blur up on Medium.com and for blur up on my site, blur up inception. We need to go deeper!](https://media.calebukle.com/uploads/2020/04/wk-jkhZPDE8oj.gif)

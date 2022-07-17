@@ -8,6 +8,7 @@ tags:
   - Angular
   - Gitlab
   - Continuous Integration
+  - Blog
 ---
 
 > _This post originally appeared on

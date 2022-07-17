@@ -9,6 +9,7 @@ tags:
   - Algoila
   - Firebase
   - Plugins
+  - Blog
 ---
 
 > Disclaimer: At the time of writing this

@@ -9,6 +9,7 @@ tags:
   - Gatsby
   - Scully
   - Static Site Generator
+  - Blog
 ---
 
 > Scully is in a alpha version at the time of writing this. So things are likely
