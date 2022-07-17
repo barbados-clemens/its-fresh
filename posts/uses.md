@@ -3,7 +3,7 @@ title: /uses
 description: Some of the stuff I use
 author: Caleb Ukle
 publish_date: 2022-07-17
-og:image: https://media.calebukle.com/uploads/desk-knoll.jpeg
+og:image: https://imagedelivery.net/6_sVAC4MwGJ_cI4QnB3iTg/56cce2e0-e2fb-4f8d-3be1-5980c9b01a00/social
 tags:
   - Gear
   - Software
@@ -12,7 +12,7 @@ tags:
   - IT Networking
 ---
 
-![Top down picture of various items arranged in a grid pattern on a table. items from top left to bottom right are as follow: Headphone cables, blue notebook with gold big dipper constellation, lego mercedes f1 car. Next row. green circuit board, headphones, metal computer dock, usb charger hub, mp3 player. Next row. Stream deck, magic trackpad, leather bag. Next row. 3 key keyboard, TKL keyboard, macbook pro, blue iphone](https://media.calebukle.com/uploads/desk-knoll.jpeg)
+![Top down picture of various items arranged in a grid pattern on a table. items from top left to bottom right are as follow: Headphone cables, blue notebook with gold big dipper constellation, lego mercedes f1 car. Next row. green circuit board, headphones, metal computer dock, usb charger hub, mp3 player. Next row. Stream deck, magic trackpad, leather bag. Next row. 3 key keyboard, TKL keyboard, macbook pro, blue iphone](https://imagedelivery.net/6_sVAC4MwGJ_cI4QnB3iTg/56cce2e0-e2fb-4f8d-3be1-5980c9b01a00/public)
 
 ## Office Life
 
