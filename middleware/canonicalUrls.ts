@@ -10,7 +10,7 @@ export interface CanonicalUrlsOptions {
 }
 
 export function canonicalUrls(
-  { baseUrl, routesToIgnore }: CanonicalUrlsOptions
+  { baseUrl, routesToIgnore }: CanonicalUrlsOptions,
 ): BlogMiddleware {
   return async function (req: Request, ctx: BlogContext): Promise<Response> {
     const url = new URL(req.url);
@@ -19,7 +19,7 @@ export function canonicalUrls(
     }
     ctx.state = {
       ...ctx.state,
-      canonicalUrl: baseUrl ? baseUrl + url.pathname : req.url
+      canonicalUrl: baseUrl ? baseUrl + url.pathname : req.url,
     };
 
     return await ctx.next();
