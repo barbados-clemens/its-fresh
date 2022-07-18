@@ -1,10 +1,13 @@
 import blog, { redirects } from "https://deno.land/x/blog@0.4.1/blog.tsx";
+import { Footer } from "./components/Footer.tsx";
 import { canonicalUrls } from "./middleware/canonicalUrls.ts";
 
 blog({
   title: "Caleb Ukle",
-  description: "This is where I write about random stuff. Enjoy.",
-  avatar: "https://media.calebukle.com/uploads/avi.jpg",
+  description:
+    "This is where I write about random things that are interesting to me. Enjoy!",
+  avatar:
+    "https://media.calebukle.com/cdn-cgi/imagedelivery/6_sVAC4MwGJ_cI4QnB3iTg/avi/public",
   avatarClass: "rounded-full",
   author: "Caleb Ukle",
   lang: "en",
@@ -12,8 +15,10 @@ blog({
   links: [
     { title: "Twitter", url: "https://twitter.com/cu_galaxy" },
     { title: "GitHub", url: "https://github.com/barbados-clemens" },
+    { title: "LinkedIn", url: "https://www.linkedin.com/in/caleb-ukle/" },
   ],
   theme: "auto",
+  footer: Footer({ author: "Caleb Ukle" }),
   middlewares: [
     // If you want to set up Google Analytics, paste your GA key here.
     // ga("UA-XXXXXXXX-X"),
@@ -22,7 +27,6 @@ blog({
     // pathname specified in a key will redirect to pathname in the value.
     canonicalUrls({ baseUrl: "https://calebukle.com" }),
     redirects({
-      "/hello_world.html": "/hello_world",
       "/blog": "/?tag=Blog",
       "/lego": "/?tag=Lego",
       "/use": "/uses",

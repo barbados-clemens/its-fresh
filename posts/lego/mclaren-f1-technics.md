@@ -1,6 +1,6 @@
 ---
 title: McLaren F1 Lego Set 🍊
-description: This was before they tanked in the 2022 season. 🤷‍♂️
+description: I bought this before their rough 2022 season start. 🤷‍♂️
 author: Caleb Ukle
 publish_date: 2022-07-16
 og:image: https://media.calebukle.com/cdn-cgi/imagedelivery/6_sVAC4MwGJ_cI4QnB3iTg/lego-mclaren-bag-4-alt/social
