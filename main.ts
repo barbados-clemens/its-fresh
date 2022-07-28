@@ -1,5 +1,6 @@
 import blog, { redirects } from "https://deno.land/x/blog@0.4.1/blog.tsx";
 import { Footer } from "./components/Footer.tsx";
+import { IconDiscogs } from "./components/IconDiscogs.tsx";
 import { canonicalUrls } from "./middleware/canonicalUrls.ts";
 
 blog({
@@ -16,6 +17,11 @@ blog({
     { title: "Twitter", url: "https://twitter.com/cu_galaxy" },
     { title: "GitHub", url: "https://github.com/barbados-clemens" },
     { title: "LinkedIn", url: "https://www.linkedin.com/in/caleb-ukle/" },
+    {
+      title: "Discogs",
+      url: "https://www.discogs.com/user/Barbados_Clemens/collection",
+      icon: IconDiscogs(),
+    },
   ],
   theme: "auto",
   footer: Footer({ author: "Caleb Ukle" }),
