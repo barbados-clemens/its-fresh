@@ -7,7 +7,7 @@ export async function getImages(): Promise<[string, string, string, string]> {
 
     const init = {
       headers: {
-        "user-agent": `CalebUkleCom Deno/${Deno.version.deno}`,
+        "user-agent": `CalebUkleCom Deno/${Deno.version?.deno || 'unknown'}`,
         "Authorization": `Discogs token=${Deno.env.get("DISCOGS_TOKEN")}`,
       },
     };
