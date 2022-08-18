@@ -1,9 +1,12 @@
 import blog, { redirects } from "https://deno.land/x/blog@0.4.1/blog.tsx";
+import { BlogState } from "https://deno.land/x/blog@0.4.1/types.d.ts";
 import { Footer } from "./components/Footer.tsx";
+import { Header } from "./components/Header.tsx";
 import { IconDiscogs } from "./components/IconDiscogs.tsx";
 import { canonicalUrls } from "./middleware/canonicalUrls.ts";
+import { getImages } from "./utils/discogs.ts";
 
-blog({
+const blogState = {
   title: "Caleb Ukle",
   description:
     "This is where I write about random things that are interesting to me. Enjoy!",
@@ -24,6 +27,15 @@ blog({
     },
   ],
   theme: "auto",
+} as BlogState;
+const recordImages = await getImages();
+
+blog({
+  ...blogState,
+  header: Header({
+    state: blogState,
+    recordImages,
+  }),
   footer: Footer({ author: "Caleb Ukle" }),
   middlewares: [
     // If you want to set up Google Analytics, paste your GA key here.
