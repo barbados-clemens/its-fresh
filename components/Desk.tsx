@@ -7,6 +7,7 @@ export function Desk(
 ): VNode {
   return (
     <svg
+      style="max-width: 100%;"
       width="500"
       height="182"
       viewBox="0 0 7404 2700"
@@ -605,6 +606,7 @@ export function Desk(
         <rect x="1339" y="179" width="4725" height="92" fill="#494949" />
       </g>
       <image
+        class="shadow-dark drop-shadow-md  hover:drop-shadow-2xl"
         href={props.images[0]}
         x="347.5"
         y="655.5"
@@ -613,6 +615,7 @@ export function Desk(
         id="bottom-record"
       />
       <image
+        class="shadow-dark drop-shadow-md hover:drop-shadow-2xl"
         href={props.images[1]}
         x="553.5"
         y="814.5"
@@ -623,6 +626,7 @@ export function Desk(
         id="second-record"
       />
       <image
+        class="shadow-dark drop-shadow-md hover:drop-shadow-2xl"
         href={props.images[2]}
         x="185.198"
         y="894.511"
@@ -634,6 +638,7 @@ export function Desk(
         id="third-record"
       />
       <image
+        class="shadow-dark drop-shadow-md hover:drop-shadow-2xl"
         href={props.images[3]}
         x="312.589"
         y="1191.73"

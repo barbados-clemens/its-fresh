@@ -4,17 +4,16 @@ function rand(max: number) {
 
 export async function getImages(): Promise<[string, string, string, string]> {
   try {
-
     const init = {
       headers: {
-        "user-agent": `CalebUkleCom Deno/${Deno.version?.deno || 'unknown'}`,
+        "user-agent": `CalebUkleCom Deno/${Deno.version?.deno || "unknown"}`,
         "Authorization": `Discogs token=${Deno.env.get("DISCOGS_TOKEN")}`,
       },
     };
     const collection = await fetch(
       "https://api.discogs.com/users/Barbados_Clemens/collection/folders/0/releases?per_page=200",
       init,
-    ).then((r) => r.json())
+    ).then((r) => r.json());
 
     const n = collection.releases.length;
 

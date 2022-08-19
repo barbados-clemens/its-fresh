@@ -3,6 +3,7 @@ import { h } from "https://deno.land/x/blog@0.4.1/blog.tsx";
 import { BlogState } from "https://deno.land/x/blog@0.4.1/types.d.ts";
 import type { VNode } from "https://esm.sh/v87/preact@10.8.2/src/index.d.ts";
 import { Desk } from "./Desk.tsx";
+
 export interface HeaderProps {
   state: BlogState;
   recordImages: [string, string, string, string];
@@ -71,13 +72,14 @@ export function Header({ state, recordImages }: HeaderProps): VNode {
             })}
           </nav>
         )}
-        <div class="my-3">
+        <div class="my-3 overflow-x-auto">
           <Desk images={recordImages} />
         </div>
       </div>
     </header>
   );
 }
+
 function IconRssFeed() {
   return (
     <svg
@@ -187,12 +189,14 @@ function IconLinkedin() {
     </svg>
   );
 }
+
 const socialAppIcons = new Map([
   ["github.com", IconGithub],
   ["twitter.com", IconTwitter],
   ["instagram.com", IconInstagram],
   ["linkedin.com", IconLinkedin],
 ]);
+
 function Tooltip({ children }: { children: string }) {
   return (
     <div
