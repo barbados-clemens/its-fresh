@@ -17,19 +17,25 @@ export async function getImages(): Promise<[string, string, string, string]> {
 
     const n = collection.releases.length;
 
+    console.group("loaded items");
     const selected = [
       collection.releases[rand(n)],
       collection.releases[rand(n)],
       collection.releases[rand(n)],
       collection.releases[rand(n)],
+    ].map((s) => {
+      console.log("title: ", s.basic_information.title);
+      console.log("resource_url: ", s.basic_information.resource_url);
+      return s.basic_information.cover_image;
+    }) as [
+      string,
+      string,
+      string,
+      string,
     ];
+    console.groupEnd();
 
-    return selected.map((s) => s.basic_information.cover_image) as [
-      string,
-      string,
-      string,
-      string,
-    ];
+    return selected;
   } catch (e) {
     console.log(e);
     return ["", "", "", ""];

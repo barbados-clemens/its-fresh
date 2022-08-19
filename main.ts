@@ -33,7 +33,6 @@ const blogState = {
 } as BlogState;
 
 const recordImages = await getImages();
-
 blog({
   ...blogState,
   header: Header({
